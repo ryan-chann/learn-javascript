@@ -29,7 +29,7 @@ Cover a block of code with `/*` and `*/`, multi-line comments can be used to <ma
 Cover a block of code with `/**` and `*/`, JSDoc comments can be used to aid <mark>automatic documentation generation</mark>, <mark>enhance code readability</mark>, and <mark>improve code quality</mark>. JSDoc support numbers of annotation for different types of data.
 ### 2. JSDoc Annotation
 
-#### `@Param`
+#### 2.1. `@Param`
 Describe the parameter values of a function
 
 Syntax:
@@ -47,7 +47,7 @@ Example:
 */
 ```
 
-#### `@Returns` / `@Return`
+#### 2.2. `@Returns` / `@Return`
 Describe the return value of a function
 
 Syntax:
@@ -63,7 +63,7 @@ Example:
 */
 ```
 
-#### `@type`
+#### 2.3. `@type`
 Explicitly define variable type with comments to increase readability, commonly used in conjunction with variables.
 
 Syntax:
@@ -80,7 +80,7 @@ Example:
 let fullName;
 ```
 
-#### `@typedef`
+#### 2.4. `@typedef`
 Refers to *Type Definition*, commonly used to define user-defined data types like objects and used in conjunction with the `@property` annotation
 
 Syntax:
@@ -101,7 +101,7 @@ Example:
 */
 ```
 
-#### `@property`
+#### 2.5. `@property`
 Describe the properties of an object type, commonly used in conjuction with the `@typedef` annotation
 
 Syntax:
