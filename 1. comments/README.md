@@ -1,14 +1,14 @@
 # Comments
 Comments in JavaScript are used to add explanations, notes, or disable code without affecting its execution. They are essential for improving code readability and maintainability.
 
-## Types of comments
-### Single-line comments
+## 1. Types of comments
+### 1.1. Single-line comments
 ```
 // This is a single-line comment
 ```
 Place `//` before a line of code, single-line comments can be used to <mark>disable a particular line of code</mark> or <mark>mark areas that needs improvement</mark>
 
-### Multi-line comments
+### 1.2. Multi-line comments
 ```
 /*
     This is a multi-line comment.
@@ -17,7 +17,7 @@ Place `//` before a line of code, single-line comments can be used to <mark>disa
 ```
 Cover a block of code with `/*` and `*/`, multi-line comments can be used to <mark>disable a block of code</mark>, <mark>write TODO notes</mark>, or <mark>explain complex logic or algorithms</mark>.
 
-### JSDoc
+### 1.3. JSDoc comments
 ```
 /**
  * @param {number} length - The length of the rectangle.
@@ -27,7 +27,7 @@ Cover a block of code with `/*` and `*/`, multi-line comments can be used to <ma
 
 ```
 Cover a block of code with `/**` and `*/`, JSDoc comments can be used to aid <mark>automatic documentation generation</mark>, <mark>enhance code readability</mark>, and <mark>improve code quality</mark>. JSDoc support numbers of annotation for different types of data.
-### JSDoc Annotation
+### 2. JSDoc Annotation
 
 #### `@Param`
 Describe the parameter values of a function
