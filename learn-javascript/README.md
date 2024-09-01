@@ -40,12 +40,32 @@ Understanding programming terminology enhances the efficiency of code explanatio
         <td><code>Punctuation / Syntax Element</code></td>
         <td>Symbols used to <mark>structure and organize code</mark>. Examples include semicolons (<code>;</code>) to terminate statements, curly braces (<code>{}</code>) to define code blocks, and parentheses (<code>()</code>) for grouping expressions and function calls.</td>
     </tr>
+    <tr>
+        <td><code>Condition</code></td>
+        <td>A condition is an expression that evaluates to a boolean value, either <code>true</code> or <code>false</code>. It is used to control the flow of execution in control structures like <code>if</code> statements, <code>while</code> loops, and <code>for</code> loops.</td>
+    </tr>
+    <tr>
+        <td><code>Parameter</code></td>
+        <td>A parameter is a variable used in a function definition to <mark>represent the value that will be passed to the function when it is called.</mark> Parameters allow functions to accept input values and perform operations based on those inputs.
+        </td>
+    </tr>
+    <tr>
+        <td><code>Argument</code></td>
+        <td>An <mark>argument is the actual value that is passed to a function when it is called.</mark> Arguments are the real data that the function processes, and they correspond to the parameters defined in the function.
+        </td>
+    </tr>
 </table>
 <br>
 
 ### 1.1. Code Description
 Here is a detailed explanation of the following code block:
 ![Programming Terminology](./assets/images/programming-terminology.jpg)
+<br>
+
+Explanation of the code:
+
+<code>filterNumbers</code> is a function that takes in 2 parameters as input which is <code>arr</code> and <code>threshold</code>. Firstly, it defines an empty array identified as <code>results</code>. After that, the program iterates through the array using the <code>for</code> keyword. Inside the loop, it checks if each element in the array is greater than the <code>threshold</code> using a condition. If the condition is true, the element is added to the <code>results</code> array. Finally, the function returns the <code>results</code> array.
+<br>
 
 <table>
     <tr>
@@ -130,8 +150,6 @@ Here is a detailed explanation of the following code block:
         <td>
             <code>arr.length</code>,
             <br>
-            <code>arr[i] > threshold</code>,
-            <br>
             <code>result.push(arr[i])</code>,
             <br>
             <code>i++</code>
@@ -166,6 +184,16 @@ Here is a detailed explanation of the following code block:
         </td>
         <td>Block Statement</td>
         <td>Block statement refers to a group of statement enclosed in curly braces <code>{}</code>, typically used in control flow keywords like <code>if</code>, <code>for</code>, <code>while</code>, <code>function</code>.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <code>arr[i] > threshold</code>,
+            <br>
+            <code>i < arr.length</code>
+        </td>
+        <td>Condition</td>
+        <td>These are the conditions that need to be met for controlling the program flow often used in conditional statements and looping.
         </td>
     </tr>
 </table>
