@@ -1,4 +1,5 @@
 # Learn Javascript
+Learn Javascript is an initiative to produce learning documentation that promotes knowledge sharing, and continuity of information. It includes comprehensive explanations and examples for learning Javascript technologies.
 
 ## 1. Terminology
 Understanding programming terminology enhances the efficiency of code explanations. Familiarity with specific terms allows developers to communicate more clearly and effectively about concepts, processes, and issues in coding.
